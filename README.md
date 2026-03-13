@@ -31,13 +31,17 @@ TreeMap
 
 FileWriter (CSV Export)
 
+LocalDate / Date-Time API
+
+Scanner (User Input)
+
 >Project Structure
 
 StudyTracker.java
-│
-├── StudyLog class
-├── StudyTracker class
-└── Main class (StudyTracker)
+
+- StudyLog class
+  - StudyTracker class
+    - Main class (StudyTracker)
 
 >Example Menu
 
@@ -58,6 +62,3 @@ CSV file generated: StudyTracker.csv
 
 Ankita Dnyanoba Shinde
 Java Logic Building & Core Java Practice Project
-LocalDate / Date-Time API
-
-Scanner (User Input)
