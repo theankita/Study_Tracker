@@ -1,65 +1,183 @@
->Study Tracker (Java Console Application)
+# Study Tracker (Java Console Application)
 
-Study Tracker is a Java console-based application that helps users record and manage their daily study activities.
-The program allows you to insert study logs, view saved records, generate summaries, and export data to a CSV file.
+## Overview
 
-This project is built using Core Java, OOP, Collections Framework, Date-Time API, and File Handling.
+Study Tracker is a Java console-based application designed to help users record, organize, and analyze their daily study activities. The application enables users to maintain study logs, track learning progress, generate summaries, and export records for future reference.
 
->Features
+This project demonstrates the practical use of Core Java concepts, Object-Oriented Programming (OOP), Collections Framework, File Handling, and Java Date-Time API.
 
-Add new study log with date, subject, duration, and description
+---
 
-Display all saved study logs
+## Features
 
-Export study logs to CSV file
+* Add new study logs
+* Record study date, subject, duration, and description
+* View all saved study records
+* Generate study summary by date
+* Generate study summary by subject
+* Export study records to CSV format
+* Menu-driven console interface
+* Simple and user-friendly workflow
 
-Summary of total study time by Date
+---
 
-Summary of total study time by Subject
+## Technologies Used
 
-Menu-driven console application
+### Programming Language
 
->Technologies Used
+* Java
 
-Java
+### Core Concepts
 
-OOP (Object Oriented Programming)
+* Object-Oriented Programming (OOP)
+* Collections Framework
+* File Handling
+* Date and Time API
+* Data Aggregation
+* Console-Based Application Development
 
-ArrayList
+### Java Components
 
-TreeMap
+* ArrayList
+* TreeMap
+* Scanner
+* FileWriter
+* LocalDate
 
-FileWriter (CSV Export)
+---
 
-LocalDate / Date-Time API
+## Project Structure
 
-Scanner (User Input)
+```bash
+Study_Tracker/
+│
+├── StudyTracker.java
+│
+├── StudyLog Class
+│
+├── StudyTracker Class
+│
+└── Main Class
+```
 
->Project Structure
+---
 
-StudyTracker.java
+## Application Workflow
 
-- StudyLog class
-  - StudyTracker class
-    - Main class (StudyTracker)
+Start Application
+↓
+Display Menu
+↓
+Select Operation
+↓
+Insert / View / Export / Summary
+↓
+Process Data
+↓
+Display Result
 
->Example Menu
+---
 
-1 : Insert new study log
-2 : View all study log
-3 : Export study log to CSV file
-4 : Summary by Date
-5 : Summary by Subject
-6 : Exit
+## Functionalities
 
->Output
+### 1. Add Study Log
 
-Study logs stored in memory
+Users can record:
 
-CSV file generated: StudyTracker.csv
+* Study Date
+* Subject Name
+* Study Duration
+* Study Description
 
-> Author
+### 2. View Study Logs
 
-Ankita Dnyanoba Shinde
+Displays all recorded study sessions in a structured format.
 
-Java Logic Building & Core Java Practice Project
+### 3. Export to CSV
+
+Exports all study records to:
+
+```text
+StudyTracker.csv
+```
+
+This file can be opened using:
+
+* Microsoft Excel
+* Google Sheets
+* LibreOffice Calc
+
+### 4. Summary by Date
+
+Calculates the total study time spent on each date.
+
+### 5. Summary by Subject
+
+Calculates the total study time spent on each subject.
+
+---
+
+## Example Menu
+
+```text
+1. Insert New Study Log
+2. View All Study Logs
+3. Export Study Logs to CSV
+4. Summary by Date
+5. Summary by Subject
+6. Exit
+```
+
+---
+
+## Sample Study Log
+
+```text
+Date       : 2026-05-30
+Subject    : Java
+Duration   : 2 Hours
+Description: Collections Framework Practice
+```
+
+---
+
+## Output
+
+* Study logs stored during program execution
+* CSV file generated successfully
+* Date-wise study summary
+* Subject-wise study summary
+
+---
+
+## Learning Outcomes
+
+This project demonstrates:
+
+* Core Java Programming
+* Object-Oriented Design
+* Collections Framework Usage
+* File Handling Operations
+* Data Processing and Aggregation
+* Console Application Development
+
+---
+
+## Future Enhancements
+
+* Database Integration (MySQL)
+* User Authentication
+* Study Goal Tracking
+* Graphical User Interface (GUI)
+* Weekly and Monthly Analytics
+* Data Visualization Dashboard
+
+---
+
+## Author
+
+### Ankita Dnyanoba Shinde
+
+**GitHub:** https://github.com/theankita
+
+**Project Type:** Java Logic Building & Core Java Practice Project
