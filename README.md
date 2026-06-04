@@ -59,7 +59,7 @@ Study_Tracker/
 ---
 
 ## Application Workflow
-
+```bash
 Start Application
 ↓
 Display Menu
@@ -71,6 +71,7 @@ Insert / View / Export / Summary
 Process Data
 ↓
 Display Result
+```
 
 ---
 
