@@ -53,11 +53,7 @@ Study_Tracker/
 │
 ├── StudyTracker.java
 │
-├── StudyLog Class
-│
-├── StudyTracker Class
-│
-└── Main Class
+└── StudyTracker.csv
 ```
 
 ---
